@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="app.js"></script>
+</head>
+<body>
+        <div class="card">
+            <div class="search">
+                <input type="text" id="lokacija" placeholder="Enter city name" spellcheck="false">
+                <button onclick="checkWeather()"><i class="fas fa-search"></i></button>
+            </div>
+            <div class="weather">
+                <i class="fas fa-cloud-showers-heavy"></i>
+            </div>
+            <h1 class="temp">temp. °C</h1>
+            <h2 class="city">City</h2>
+            <div class="details">
+                <div class="col">
+                    <i1 class="fas fa-droplet"></i1> <!-- Humidity -->
+                    <div>
+                        <p class="humidity"></p>
+                        <p>Humidity </p>
+                    </div>    
+                </div>
+
+                <div class="col">
+                    <i2 class="fas fa-wind"></i2> <!-- Wind -->    
+                    <div>
+                        <p class="wind"></p>
+                        <p>Wind</p>
+                    </div>
+                </div>
+            </div>
+        </div>        
+</body>
+</html>
