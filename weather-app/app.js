@@ -23,4 +23,5 @@ async function checkWeather() {
     // Optionally, clear the existing icon and append the new image
     iconElement.innerHTML = '';  // Clear the current content inside the weather div
     iconElement.appendChild(img); // Add the new image element
+    document.getElementById("lokacija").value = '';
 }

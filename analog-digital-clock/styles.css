@@ -19,7 +19,7 @@ body {
   flex-direction: column;
   justify-content: center;
   background: var(--primary-color);
-  gap: 100px;
+  gap: 40px;
 }
 body.dark {
   --primary-color: #242526;
@@ -94,6 +94,7 @@ body.dark {
   background: var(--black-color);
 }
 .mode-switch {
+  margin-top: 20px;
   padding: 10px 20px;
   border-radius: 8px;
   font-size: 22px;

@@ -1,0 +1,50 @@
+body {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  height: 100vh; /* Full height of the screen */
+  margin: 0; /* Removes default margin */
+  background: #8360c3;  /* Fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #2ebf91, #8360c3);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #2ebf91, #8360c3); /* W3C, IE 10+, Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  flex-direction: column;
+  gap: 160px;
+}
+
+.downButton, .reset, .upButton{
+  text-transform:uppercase;
+  font-weight: 600;
+  color: blue;
+  border-radius: 16px;
+  border-color: blue;
+  margin: 9px;
+  height: 60px;
+  width: 120px;
+  cursor: pointer;
+}
+
+.bckgrButton{
+  text-transform:uppercase;
+  font-weight: 600;
+  color: blue;
+  border-radius: 16px;
+  border-color: blue;
+  margin: 9px;
+  height: 60px;
+  width: 400px;
+  cursor: pointer;
+}
+
+#value{
+  font-size: 36px;
+}
+
+.label{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+#cnt, #value{
+  font-size: 72px;
+}
